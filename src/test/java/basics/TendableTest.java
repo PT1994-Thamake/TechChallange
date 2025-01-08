@@ -48,7 +48,7 @@ public class TendableTest {
 	String errorMessage=ReadProperties.getProperty("errorMessage");
 
 	@BeforeTest
-	public void setUp() {
+	public void setUp1() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get(url);
